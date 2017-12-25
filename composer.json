@@ -1,0 +1,19 @@
+{
+    "name": "xpohoc269/bracket-cheker",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Menshov Evgeny",
+            "email": "menschov.evgeny@yandex.ru"
+        }
+    ],
+    "require": {
+        "php": ">=5.6"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Menshov\\": "src"
+        }
+    }
+}
