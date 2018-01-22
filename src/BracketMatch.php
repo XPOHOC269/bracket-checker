@@ -7,7 +7,7 @@ use Menshov\Exceptions\BracketMatchException;
 class BracketMatch
 {
 
-    static function checkBrackets(string $string): bool
+    static function checkBrackets(string $string): array
     {
         try {
             preg_match_all('/[^()\r\n\t\s]/', $string, $matches, PREG_SET_ORDER, 0);
