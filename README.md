@@ -2,7 +2,7 @@
 
 ## Installing
 ```
-composer require xpohoc269/bracket-cheker
+composer require xpohoc269/bracket-cheker dev-master
 ```
 
 ## Basic usage
