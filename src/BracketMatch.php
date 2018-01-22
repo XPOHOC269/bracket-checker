@@ -37,12 +37,11 @@ class BracketMatch
             }
 
         } catch (\InvalidArgumentException $e) {
-            echo $e->getMessage();
-            die;
+            return ['status' => false, 'message' => $e->getMessage()];
         } catch (BracketMatchException $e) {
-            return false;
+            return ['status' => false, 'message' => $e->getMessage()];
         }
 
-        return true;
+        return ['status' => true, 'message' => 'Скобки расставлены верно'];
     }
 }
